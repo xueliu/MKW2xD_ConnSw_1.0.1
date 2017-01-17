@@ -1,0 +1,42 @@
+Release Name: MKW2xD/MCR20A	Version: 5.0.5
+IEEE 802.15.4 Software
+
+
+Kinetis Connectivity		Description: Kinetis Connectivity Framework
+Framework					Middleware for Connectivity stacks
+							Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Open Source - BSD-3-Clause
+							Format: source code
+							Location: middleware/wireless/framework_5.0.5
+								
+Kinetis MAC					Description: Kinetis 802.15.4 MAC software for MKW2xD/MCR20A
+							Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Proprietary.  See EULA
+							LA_OPT_Base_License, Appendix A, MQX RTOS Code.
+							Format: object code
+							Location: middleware\wireless\ieee_802_15_4_5.0.5\mac
+
+Kinetis PHY					Description: Kinetis 802.15.4 PHY software for MKW2xD/MCR20A
+							Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Open Source - BSD-3-Clause
+							Format: source code
+							Location: middleware\wireless\ieee_802_15_4_5.0.5\phy
+				
+Kinetis Connectivity		Description: Connectivity Security Library for Kinetis
+SecLib                      Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Proprietary.  See EULA
+							LA_OPT_Base_License, Appendix A, MQX RTOS Code.
+							Format: object code
+							Location: middleware/wireless/framework_5.0.5/SecLib		
+				
+MyStarNetwork Demo			Description: Freescale MyStarNetwork
+							PC Demonstration Applicatiom
+							Version 1.2.2.0
+							Author: Freescale Semiconductor Inc.
+							License: Proprietary. See EULA LA_OPT_HOST_TOOL.htm
+							Format: binary
+							Location: tools/wireless/MyStarNetwork Demo		

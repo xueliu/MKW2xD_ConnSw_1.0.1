@@ -1,0 +1,43 @@
+NXP Software Content Register
+
+Release - Connectivity Host SDK 1.4.2
+
+Package:                   Connectivity Host SDK
+Outgoing License:          LA_OPT_HOST_TOOL
+License Files:             COPYING: LA_OPT_HOST_TOOL
+Package Category:          Network Protocol stack serial bus drivers and application code
+Type of content:           Binaries, Source code and Header Files
+Location: 				   tools/wireless/host_sdk
+Origin:                    NXP
+
+Component: libc.so
+Description: GNU C library 
+Author: GNU Project               
+License: Open Source - LGPL-2.1          
+Format: binary, .so file
+Linking to Connectivity Host SDK: dynamic                           
+Location: Included as part of libc on the host
+
+Component: libpthread.so
+Description: Threads management library
+Author: GNU Project               
+License: Open Source - LGPL-2.1          
+Format: binary, .so file
+Linking to Connectivity Host SDK: dynamic                           
+Location: Included as part of libc on the host
+
+Component: libudev.so
+Description: Local system devices enumeration library
+Author: GNU Project               
+License: Open Source - LGPL-2.1          
+Format: binary, .so file
+Linking to Connectivity Host SDK: dynamic                           
+Location: Included as part of udev/systemd on the host
+
+Component: libpcap.so
+Description:  Low-level network monitoring library
+Author: GNU Project               
+License: Open Source - BSD-3-Clause          
+Format: binary, .so file
+Linking to Connectivity Host SDK: dynamic
+Location: Installed by the user

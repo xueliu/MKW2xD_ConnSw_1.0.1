@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+	<stack 	name="mkw24xd"			
+			stack_path="ConnSw"	
+			header="MKW24xD Connectivity Software" 
+			version="1.1.1.6" 
+			env_var="MKW24xD_1_1_1_6_KEX_PATH" 
+			stack_type="MacSmacThread" >
+			
+		<!-- folder stack signature -->
+		
+		<stack_folders_signature>
+			<filter  name="boards"				type="allow" />
+			<filter  name="middleware"			type="allow" />
+		</stack_folders_signature>
+		
+		<!-- ignore these folders when building project tree -->
+		
+		<tree_filters_folders>
+			<filter  name="examples"			type="allow"  />
+			<filter  name="boards"				type="allow"  />
+			<filter  name="wireless_examples"	type="allow"  />
+			
+			<filter  name="demo_apps" 			type="ignore" />
+			<filter  name="driver_examples" 	type="ignore" />
+			<filter  name="rtos_examples" 		type="ignore" />
+			<filter  name="custom_examples" 	type="ignore" />
+			<filter  name="KSDK_1.3.0" 			type="ignore" />
+			<filter  name="demo_apps" 			type="ignore" />
+			<filter  name="usb_examples" 		type="ignore" />
+            <filter  name="mmcau_examples"      type="ignore" />
+            <filter  name="project_template"    type="ignore" /> 
+            
+
+		</tree_filters_folders>
+
+		<!-- ignore these strings in configuration name -->
+		
+		<tree_filters_strings>
+			<filter  name="iar" 				type="ignore" />
+			<filter  name="kds" 				type="ignore" />
+		</tree_filters_strings>
+		
+		<!-- only for expert_mode="true" -->
+		
+		<copy_root_filters>
+			<filter  name="CMSIS" 				type="ignore" />
+			<filter  name="devices" 			type="ignore" />
+			<filter  name="docs" 				type="ignore" />
+			<filter  name="rtos" 				type="ignore" />
+			<filter  name="tools" 				type="ignore" />
+			<filter  name="KSDK_1.3.0" 			type="ignore" />
+		</copy_root_filters>
+	
+		<!-- only for expert_mode="true" -->
+		
+		<copy_ext_filters>
+			<filter1  name=".a" 				type="ignore" />
+		</copy_ext_filters>
+
+	</stack>
+	
+	<application 	default_app="" 	
+					default_conf="" 
+					use_env_var="false"
+					
+					expert_mode="false" 
+					original_folder="false"
+					
+					debug="false" 
+					save_log="false"
+	/>
+	
+</settings>	

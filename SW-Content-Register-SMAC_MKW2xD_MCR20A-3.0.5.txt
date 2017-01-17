@@ -1,0 +1,33 @@
+Release Name: Kinetis     	Version: 3.0.5
+MKW2xD/MCR20A SMAC Software
+
+
+Kinetis Connectivity		Description: Kinetis Connectivity Framework
+Framework					Middleware for Connectivity stacks
+							Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Open Source - BSD-3-Clause
+							Format: source code
+							Location: middleware/wireless/framework_5.0.5
+								
+Kinetis SMAC				Description: Kinetis Simple Media Access Controller software for MKW2xD/MCR20A
+							Version 3.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Open Source - BSD-3-Clause
+							Format: source code
+							Location: middleware\wireless\smac_3.0.5
+
+Kinetis PHY					Description: Kinetis 802.15.4 PHY software for MKW2xD/MCR20A
+							Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Open Source - BSD-3-Clause
+							Format: source code
+							Location: middleware\wireless\ieee_802_15_4_5.3.2\phy
+				
+Kinetis Connectivity		Description: Connectivity Security Library for Kinetis
+SecLib                      Version 5.0.5
+							Author: Freescale Semiconductor Inc.
+							License: Proprietary.  See EULA
+							LA_OPT_Base_License, Appendix A, MQX RTOS Code.
+							Format: object code
+							Location: middleware/wireless/framework_5.3.2/SecLib	
